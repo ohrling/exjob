@@ -13,13 +13,13 @@ Om vi vill att det ska kunna vara svenska recept skulle man kunna använda någo
     - MongoDB: <br> Lagra recept som användare gjort, och användares "skafferi".
     - Redis: <br> För att snabba upp för användaren, t.ex senaste recept på startsida? Aktiv användares varor?
 
-2. API
+2. API <br>
 Görs i Spring och ska implementera Spring Security. Varje användare får en unik API-nyckel som används i dennes konto när klienter används för att koppla upp sig mot API:et. 
 
-3. Klienter
+3. Klienter <br>
 Första tanken är en mobil-app i Flutter/Dart för Android och iOS. Och en webvariant som görs i Sping Boot med Thymeleaf.
 
-4. Lagring
+4. Lagring <br>
 Heroku känns som ett hett alternativ, frågan är om man kan få till alla dessa databaser där. Kan även vara värt att kolla om vi ska köra Docker-containers på Heroku för att underlätta.
 
 [1]: <http://www.recipepuppy.com/about/api/> "Recipe Puppy"
